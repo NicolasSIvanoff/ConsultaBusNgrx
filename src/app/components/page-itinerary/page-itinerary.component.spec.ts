@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { DataTablesModule } from 'angular-datatables';
 
 import { PageItineraryComponent } from './page-itinerary.component';
 
@@ -8,7 +9,8 @@ describe('PageItineraryComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PageItineraryComponent ]
+      declarations: [PageItineraryComponent],
+      imports: [DataTablesModule]
     })
     .compileComponents();
   });

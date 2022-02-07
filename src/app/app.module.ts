@@ -31,7 +31,7 @@ import { DataTablesModule } from 'angular-datatables';
     FooterComponent,
   ],
   imports: [
-    DataTablesModule,
+    DataTablesModule.forRoot(),
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,

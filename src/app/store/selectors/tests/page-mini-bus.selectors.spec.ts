@@ -7,6 +7,6 @@ describe('PageMiniBus Selectors', () => {
       [fromPageMiniBus.pageMiniBusFeatureKey]: {},
     });
 
-    expect(result).toEqual({});
+    expect(result).toEqual({error: '', routeMiniBus: []});
   });
 });

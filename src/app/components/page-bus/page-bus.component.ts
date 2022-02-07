@@ -1,13 +1,12 @@
 import { selectRouteError } from './../../store/selectors/page-bus.selectors';
 import { selectMiniBusSuccess } from './../../store/selectors/page-mini-bus.selectors';
-import { Component, Input, OnDestroy, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable, Subject, Subscription } from 'rxjs';
 import * as ActionsFrom from '../../store/actions/page-bus.actions';
 import { selectSuccessRoute } from '../../store/selectors/page-bus.selectors';
 import { PageBusModel } from '../models/pageBusModel';
 import * as MiniBusAction from '../../store/actions/page-mini-bus.actions';
-import { Router } from '@angular/router';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({

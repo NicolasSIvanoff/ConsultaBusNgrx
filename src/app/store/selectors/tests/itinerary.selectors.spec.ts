@@ -7,6 +7,6 @@ describe('Itinerary Selectors', () => {
       [fromItinerary.itineraryFeatureKey]: {},
     });
 
-    expect(result).toEqual({});
+    expect(result).toEqual({payload: '', error: ''});
   });
 });

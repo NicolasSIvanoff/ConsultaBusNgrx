@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { DataTablesModule } from 'angular-datatables';
 
 import { PageBusComponent } from './page-bus.component';
 
@@ -8,7 +9,7 @@ describe('PageBusComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PageBusComponent ]
+      declarations: [ PageBusComponent ], imports: [ DataTablesModule ]
     })
     .compileComponents();
   });

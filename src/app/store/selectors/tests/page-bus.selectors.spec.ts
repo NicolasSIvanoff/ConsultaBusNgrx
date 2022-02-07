@@ -7,6 +7,6 @@ describe('PageBus Selectors', () => {
       [fromPageBus.pageBusFeatureKey]: {},
     });
 
-    expect(result).toEqual({});
+    expect(result).toEqual({error: '', routeBus: []});
   });
 });
